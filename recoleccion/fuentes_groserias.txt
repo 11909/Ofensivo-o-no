@@ -1,0 +1,73 @@
+# Páginas de "diccionarios de groserías / expresiones mexicanas" para diccionarios_web.py
+# Una URL por línea. Lo que va después de # se ignora.
+# Si un sitio bloquea bots (robots.txt) o carga su contenido con JavaScript, ábrelo en tu
+# navegador, "Guardar como…" (solo HTML) dentro de html_crudo/ y el extractor también lo procesa.
+# Se excluyeron PDFs (tesis, artículos): el extractor solo procesa HTML.
+
+# ---------------------------------------------------------------- Español: groserías e insultos
+https://www.elimparcial.com/locurioso/2025/01/12/el-verdadero-significado-de-estas-malas-palabras-que-son-muy-comunes-en-el-espanol-mexicano/
+https://www.chilango.com/ciudad/origen-uso-groserias/
+https://matadornetwork.com/es/insultos-mexicanos-que-el-resto-del-mundo-deberia-adoptar/
+https://matadornetwork.com/es/12-eufemismos-mexicanos-para-no-blasfemar-enfrente-de-los-ninos/
+https://matadornetwork.com/es/11-cosas-que-decimos-los-mexicanos-cuando-nos-enojamos/
+https://www.tvazteca.com/aztecauno/especiales-azteca/que-significa-la-palabra-pinche-no-siempre-es-una-groseria-o-ayudante-de-cocina
+https://amp.milenio.com/cultura/wey-origen-y-significado-de-la-palabra
+
+# ---------------------------------------------------------------- Español: chingar y derivados
+https://matadornetwork.com/es/mini-guia-para-chingar-con-propiedad/
+https://www.adn40.mx/mexico/usos-verbo-palabra-chingar-chingon-como-se-usa/
+https://www.telediario.mx/nacional/chingar-que-significa-origen-de-la-palabra-en-mexico
+https://www.laprensani.com/2019/09/06/cultura/2586852-el-chingonario-la-entretenida-explicacion-del-uso-reuso-y-abuso-de-un-mexicanismo-maldito
+
+# ---------------------------------------------------------------- Español: "madre" y sus usos
+https://www.chilango.com/ocio/humor/30-maneras-chilangas-de-usar-la-palabra-madre/
+https://www.chilango.com/general/usos-de-la-palabra-madre-y-sus-derivados/
+https://www.milenio.com/cultura/palabras-con-madre-por-que-en-mexico-las-usamos-tanto
+https://verbling.com/articles/post/que-significa-madre-para-los-mexicanos
+https://www.posta.com.mx/share/dia-de-las-madres-del-festejo-a-la-groseria-estos-son-todos-los-usos-del-termino-mas-versatil-de-mexico/vl2034518
+
+# ---------------------------------------------------------------- Español: modismos y frases
+# (muchos son "neutro": no entran al léxico pero sus ejemplos sirven como clase 0)
+https://www.culturagenial.com/es/palabras-mexicanas/
+https://psicologiaymente.com/reflexiones/palabras-expresiones-mexicanas
+https://www.lifeder.com/frases-mexicanas/
+https://www.lifeder.com/palabras-frases-mexicanas/
+https://www.lifeder.com/frases-de-barrio/
+https://quillbot.com/es/blog/vocabulario/mexicanismos/
+https://quillbot.com/es/blog/vicios-del-lenguaje/modismos/
+https://www.eluniversal.com.mx/destinos/palabras-que-solamente-se-usan-en-mexico/
+https://www.telemundo.com/noticias/noticias-telemundo/aqui-solo-mis-chicharrones-truenan-y-otras-frases-que-solo-se-entienden-en-mexico-tmna1124101
+https://matadornetwork.com/es/ingeniosas-palabras-mexicanas/
+https://www.chilango.com/ocio/origen-palabras-populares-con-ch/
+https://www.chilango.com/ocio/humor/rale-qu-chido-el-origen-de-estas-6-palabras-de-uso-cotidiano/
+
+# ---------------------------------------------------------------- Inglés (términos en español,
+# definiciones en inglés; las frases en inglés se descartan automáticamente)
+https://mexiconewsdaily.com/mexico-living/how-to-swear-in-mexico-curse-words-for-south-of-the-border/
+https://mexiconewsdaily.com/mnd-tutor/swearing-in-mexico-related-to-moms/
+https://trufluency.com/15-colorful-mexican-spanish-swear-words/
+https://www.speakinglatino.com/mexican-spanish-swear-words-and-phrases
+https://speakinglatino.com/mexican-spanish-word-pinche
+https://www.riotimesonline.com/spanish-curse-words-latin-america/
+https://www.fluentin3months.com/?p=7861
+https://theculturetrip.com/north-america/mexico/articles/all-the-mexican-slang-terms-you-need-to-know
+https://www.fluentu.com/blog/spanish/mexican-slang/
+https://www.lingoda.com/blog/en/mexican-spanish-slang/
+https://www.lingoda.com/blog/en/best-spanish-insults-curse-words/
+https://lingvist.com/course/learn-spanish-online/resources/mexican-slang-words-to-improve-your-spanish/
+https://www.yourdictionary.com/articles/mexican-slang
+https://quillbot.com/blog/word-finder/spanish-slang/
+https://misti.mit.edu/mit-mexico-preparation-and-training/mit-mexico-resource-guide/mexico-slang
+https://www.vagabondjourney.com/mexican-spanish-slang-words/
+https://discoverdiscomfort.com/?p=18384
+https://www.tucsonweekly.com/newsopinion/andiexclask-a-mexican-1086808/
+https://www.westword.com/opinion/the-meaning-of-this-curse-word-is-all-over-the-map-5102931/
+https://www.phoenixnewtimes.com/?p=40515347
+https://www.dictionary.com/culture/translations/pinche
+https://www.dictionary.com/e/?p=124707
+https://en.wikipedia.org/wiki/Spanish_profanity
+https://lingopie.com/blog/spanish-curse-words-bad-words-in-spanish
+https://www.babbel.com/learn-spanish/upper-intermediate/spanish-insults
+https://oa.ugto.mx/oa/oa-rg-0000172/
+https://sarahedevries.substack.com/p/cursing-in-mexico-and-more-memes
+https://matadornetwork.com/notebook/14-essential-expressions-learn-trip-mexico/

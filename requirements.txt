@@ -1,1 +1,4 @@
 requests>=2.28
+beautifulsoup4>=4.11
+lxml>=4.9            # opcional: parser HTML más rápido (si falta se usa html.parser)
+scikit-learn>=1.2    # red neuronal pequeña (MLP) para clasificar términos

@@ -2,3 +2,6 @@
 *.csv
 !recoleccion/lexico_mx.csv
 __pycache__/
+# HTML descargado de sitios de terceros
+recoleccion/html_crudo/
+*.bak
