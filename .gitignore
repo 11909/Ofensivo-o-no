@@ -1,0 +1,4 @@
+# Datos crudos o con texto de terceros: no se suben
+*.csv
+!recoleccion/lexico_mx.csv
+__pycache__/
