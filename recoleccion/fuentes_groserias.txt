@@ -1,0 +1,12 @@
+# Páginas de "diccionarios de groserías / expresiones mexicanas" para diccionarios_web.py
+# Una URL por línea. Lo que va después de # se ignora.
+# Agrega aquí las que encontraste buscando "diccionario de groserías mexicanas".
+# Si un sitio bloquea bots (robots.txt), guárdalo desde tu navegador con "Guardar como…"
+# (solo HTML) dentro de html_crudo/ y el extractor también lo procesa.
+
+https://www.elimparcial.com/locurioso/2025/01/12/el-verdadero-significado-de-estas-malas-palabras-que-son-muy-comunes-en-el-espanol-mexicano/
+https://www.chilango.com/ciudad/origen-uso-groserias/
+https://www.culturagenial.com/es/palabras-mexicanas/
+https://psicologiaymente.com/reflexiones/palabras-expresiones-mexicanas
+https://quillbot.com/es/blog/vocabulario/mexicanismos/
+https://www.telemundo.com/noticias/noticias-telemundo/aqui-solo-mis-chicharrones-truenan-y-otras-frases-que-solo-se-entienden-en-mexico-tmna1124101
