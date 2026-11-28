@@ -29,6 +29,8 @@ datos/
           --max-por-video 300 --lexico lexico_mx.csv --salida comentarios_crudos.csv
    ```
    También puedes pasar videos sueltos: `--videos ID1 ID2` o un `.txt` con IDs.
+   Con `--orden time` trae los comentarios más recientes en vez de los más votados: salen más
+   comentarios ofensivos, que casi nunca llegan arriba por likes. Puedes correr ambos órdenes.
 
 La cuota gratuita es de 10,000 unidades diarias; cada página de 100 comentarios cuesta 1.
 El script no usa `search.list` (cuesta 100) y se detiene al llegar a `--presupuesto`.

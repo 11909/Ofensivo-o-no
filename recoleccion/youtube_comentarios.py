@@ -107,13 +107,13 @@ def videos_recientes(yt, playlist, n):
 # --------------------------------------------------------------------------
 # Comentarios
 # --------------------------------------------------------------------------
-def comentarios_de_video(yt, video_id, maximo, con_respuestas):
+def comentarios_de_video(yt, video_id, maximo, con_respuestas, orden="relevance"):
     token, n = None, 0
     while n < maximo:
         datos = yt.get("commentThreads",
                        part="snippet,replies" if con_respuestas else "snippet",
                        videoId=video_id, maxResults=100, textFormat="plainText",
-                       order="relevance", pageToken=token or "")
+                       order=orden, pageToken=token or "")
         for hilo in datos.get("items", []):
             top = hilo["snippet"]["topLevelComment"]
             yield top["id"], top["snippet"]["textDisplay"]
@@ -213,6 +213,9 @@ def main():
     ap.add_argument("--max-por-video", type=int, default=300)
     ap.add_argument("--con-respuestas", action="store_true",
                     help="incluye respuestas (solo las que vienen en el hilo)")
+    ap.add_argument("--orden", choices=["relevance", "time"], default="relevance",
+                    help="relevance = los más votados; time = los más recientes (incluye más "
+                         "comentarios ofensivos, que suelen tener pocos likes)")
     ap.add_argument("--min-caracteres", type=int, default=3)
     ap.add_argument("--lexico", help="CSV termino,categoria para el prefiltro")
     ap.add_argument("--presupuesto", type=int, default=9000, help="unidades máximas a gastar")
@@ -246,7 +249,7 @@ def main():
         n_antes = len(filas)
         try:
             for cid, texto in comentarios_de_video(yt, video_id, a.max_por_video,
-                                                   a.con_respuestas):
+                                                   a.con_respuestas, a.orden):
                 texto = anonimizar(texto)
                 clave = normalizar(texto)
                 if len(texto) < a.min_caracteres or clave in vistos:

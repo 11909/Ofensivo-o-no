@@ -1,12 +1,51 @@
 # Un canal por línea: @handle o ID de canal (UC...). Lo que va después de # se ignora.
-# Verifica cada handle abriendo youtube.com/@handle antes de correr el script;
-# si no existe, el script solo avisa "no encontrado" y sigue.
+# Handles verificados el 27/11/2026 (nombre y suscriptores entre paréntesis).
+# Si alguno deja de existir, el script solo avisa "no encontrado" y sigue.
 #
-# Noticieros mexicanos (comentarios a notas, como el dataset argentino):
-# @MILENIO
-# @ElUniversalMex
-# @nmas
-# @LatinusUS
-#
-# Otros con mucho español mexicano coloquial (deportes, streamers, etc.):
-# @ESPNMX
+# IMPORTANTE (sesgo): usa el MISMO --videos-por-canal para todos y conserva el balance de
+# los bloques de política. Si los comentarios ofensivos salen casi todos de un solo lado
+# político, la red puede aprender "postura política = ofensivo" en vez de detectar insultos.
+
+# ---------------------------------------------------------------- Noticieros
+@MILENIO                 # MILENIO (8.3 M)
+@nmas                    # NMás (9.4 M)
+@AztecaNoticias          # Azteca Noticias (5 M)
+@UnoTV                   # UnoTV (2 M)
+@ElUniversalMex          # El Universal (313 mil)
+@imagennoticias          # Imagen Noticias (167 mil)
+@sdpnoticias             # SDPNoticias (1.3 M)
+# @LatinusUS             # OJO: resolvió a "Latinus_us" (173 mil), no parece el canal principal de Latinus; verifícalo
+
+# ---------------------------------------------------------------- Política: afines al gobierno
+@GobiernodeMexico        # Gobierno de México (1.1 M) — mañaneras: comentarios muy polarizados
+@SinCensuraMedia         # Sin Censura Media, Vicente Serrano (1.7 M)
+@ElCiudadanoTVMexico     # El Ciudadano TV México (124 mil)
+@JulioAstillero          # Julio Astillero (837 mil)
+@RompevientoTV           # Rompeviento TV (460 mil)
+
+# ---------------------------------------------------------------- Política: críticos / oposición
+@AtypicalTeVe            # Atypical Te Ve, Carlos Alazraki (1.45 M)
+@ElPulso                 # El Pulso de la República, Chumel Torres (2.8 M)
+@BrozoXmiswebs           # Brozo xmiswebs (859 mil)
+@adelamichaof            # La Saga, Adela Micha (3.3 M)
+@AristeguiNoticias       # Aristegui Noticias (2.2 M) — independiente/crítico
+@Proceso                 # Proceso (544 mil)
+
+# ---------------------------------------------------------------- Reggaetón mexa
+@Bellakath               # BELLAKATH (2.2 M)
+@KeniaOs                 # Kenia Os (6.6 M)
+@YeriMua                 # Yeri MUA (506 mil)
+@ElBogueto               # El Bogueto (1.2 M)
+@ElMalillaOficial        # El malilla Oficial
+@UzielitoMix             # Uzielito Mix
+
+# ---------------------------------------------------------------- Corridos tumbados / bélicos
+@TitoDoubleP             # Tito Double P (3.7 M)
+@NetonVega               # Neton Vega (1.45 M)
+@FuerzaRegida            # FUERZA REGIDA (1.1 M)
+@EslabonArmado           # Eslabon Armado (2.9 M)
+
+# ---------------------------------------------------------------- Deportes y entretenimiento
+# (mucho español coloquial con groserías amistosas: buenos "casos trampa" para la clase 0)
+@ESPNMX                  # ESPN MX (274 mil)
+@LuisitoComunica         # Luisito Comunica (46 M)
