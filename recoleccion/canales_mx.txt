@@ -1,0 +1,12 @@
+# Un canal por línea: @handle o ID de canal (UC...). Lo que va después de # se ignora.
+# Verifica cada handle abriendo youtube.com/@handle antes de correr el script;
+# si no existe, el script solo avisa "no encontrado" y sigue.
+#
+# Noticieros mexicanos (comentarios a notas, como el dataset argentino):
+# @MILENIO
+# @ElUniversalMex
+# @nmas
+# @LatinusUS
+#
+# Otros con mucho español mexicano coloquial (deportes, streamers, etc.):
+# @ESPNMX
