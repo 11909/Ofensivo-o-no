@@ -319,10 +319,30 @@ def termino_valido(t):
 
 
 # -- ejemplos ---------------------------------------------------------------
+# Palabras muy frecuentes para distinguir español de inglés (hay sitios en inglés que ponen
+# la frase en español seguida de su traducción).
+STOP_ES = set("de la que el en y a los se del las un por con no una su para es al lo como "
+              "mas pero sus le ya o este si porque esta entre cuando muy sin sobre me hay "
+              "donde quien desde todo nos te tu mi eres soy estas esta estoy vas voy va "
+              "ese esa eso aqui ahi que tan bien ni ya".split())
+STOP_EN = set("the of and to in is it you that he was for on are as with his they i at be "
+              "this have from or one had by but not what all were we when your can said "
+              "there an which she do how their if will up about out them then so my me "
+              "don't it's what's i'm you're".split())
+
+
+def es_espanol(f):
+    palabras = re.findall(r"[a-zñ']+", normalizar(f))
+    es = sum(p in STOP_ES for p in palabras)
+    en = sum(p in STOP_EN for p in palabras)
+    return es >= en if (es or en) else True   # frases cortas sin palabras función: se quedan
+
+
 def limpiar_frase(f):
     f = ETIQUETAS_EJEMPLO.sub("", f).strip(COMILLAS_EXTREMOS + "-–—•*")
+    f = re.split(r"\s+(?:=|→|->)\s+", f)[0].strip(COMILLAS_EXTREMOS)   # "frase = translation"
     f = re.sub(r"\s+", " ", f)
-    if not (2 <= len(f.split()) <= 60) or len(f) > 350:
+    if not (2 <= len(f.split()) <= 60) or len(f) > 350 or not es_espanol(f):
         return None
     return f
 
